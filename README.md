@@ -43,4 +43,11 @@ docker rmi openconceptlab/oclapi2:production
 ```
 
 
+#### crear usuarios
 
+./manage.py createsuperuser
+
+
+#### desde docker 
+
+docker exec -it ./manage.py createsuperuser
